@@ -1,0 +1,37 @@
+<resources>
+    <string name="title_activity_id_back_scanner">IdBackScanner</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="app_name">e-Passport</string>
+
+    <string name="input_passport_number">Passport number</string>
+    <string name="input_expiration_date">Expiration date</string>
+    <string name="input_date_of_birth">Date of birth</string>
+
+    <string name="info_loading">Reading data…</string>
+    <string name="info_scan_passport">Please fill details and place your phone on top of the passport. Following information is required to decode encrypted passport data.</string>
+    <string name="error_input">Please provide details to read passport</string>
+    <string name="error_read">Failed to read passport</string>
+
+    <string name="result_first_name">First name</string>
+    <string name="result_last_name">Last name</string>
+    <string name="result_gender">Gender</string>
+    <string name="result_state">Country</string>
+    <string name="result_nationality">Nationality</string>
+
+    <string name="permission_title">Permission Required</string>
+    <string name="permission_description">We need your permission to access camera in order to scan Id Card / Passport.</string>
+    <string name="button_ok">OK</string>
+
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+
+
+</resources>

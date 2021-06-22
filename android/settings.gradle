@@ -1,0 +1,10 @@
+rootProject.name = 'testMrz'
+include ':react-native-image-base64'
+project(':react-native-image-base64').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-base64/android')
+include ':react-native-mrz-my'
+project(':react-native-mrz-my').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mrz-my/android')
+include ':react-native-mrz-my'
+project(':react-native-mrz-my').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mrz-my/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+include ':MrzReader'
